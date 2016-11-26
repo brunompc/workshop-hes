@@ -51,3 +51,7 @@ git merge
 -----
 
 git branch -d features
+
+  apaga o ramo "features"
+
+-----

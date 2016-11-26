@@ -5,7 +5,7 @@ import (
 //  "strings"
   )
 
-type newstringtype string;
+// type newstringtype string;
 
 type person struct {
   name string
@@ -29,4 +29,3 @@ func main() {
 
 // Função pode receber PTR para struct
 // ou a própria struct
- 
