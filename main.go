@@ -109,4 +109,27 @@ func main() {
 
   fmt.Println("Sum: ", sum)
 
+  res := plus(1, 2)
+
+  fmt.Println("Soma 1+2: ", res)
+
+  res, err := morePlus(4, 5, 6);
+
+  if err == nil {
+    fmt.Println("Soma 4+5+6: ", res)
+  } else {
+    fmt.Println("Erro...")
+  }
+
+  // O _ permite ignorar a variável
+  // err vs _
+}
+
+func plus(a int, b int) int {
+  return a + b
+}
+
+// 2 args, 2 returns
+func morePlus(a, b, c int) (int, error) {
+  return a + b + c, nil;
 }

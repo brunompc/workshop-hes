@@ -41,3 +41,13 @@ git diff
   ver as diferenças ...
 
 ----
+
+git merge
+
+  git merge master features
+
+  (puxa o conteúdo do "features" para o "master")
+
+-----
+
+git branch -d features
