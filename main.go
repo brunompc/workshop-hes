@@ -8,7 +8,7 @@ import (
 /* Função corrida autotimaticamente antes do main */
 
 func init() {
-
+  // teste do segundo branch do git
 }
 
 func main() {

@@ -1,0 +1,43 @@
+working-area -> staging-area -> history
+
+w -> s -> h
+
+---
+
+git reset HEAT <file>
+
+  muda o h para o s
+
+-----
+
+git checkout <file>
+
+git checkout .
+
+  muda o h para o w
+
+-----
+
+git log
+
+  mostra a história (i.e. os commits)
+
+-----
+git branch
+  listar os branches
+-----
+
+git checkout -b <Nome do Novo Branch>
+
+  vai ser um ramo do branch onde foi feito
+
+  * - * -----     master ---------
+          |__   features    _____|
+
+-----
+
+git diff
+
+  ver as diferenças ...
+
+----
